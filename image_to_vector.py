@@ -22,7 +22,7 @@ def image_to_vector(image_path, output_svg_path):
     
     # Adicionar cada contorno ao SVG
     for contour in contours:
-        points = [(point[0][0], point[0][1]) for point in contour]
+        points = [(float(point[0][0]), float(point[0][1])) for point in contour]  # Converte os pontos para float
         dwg.add(dwg.polygon(points, fill='none', stroke='black', stroke_width=1))
 
     # Salvar o arquivo SVG
