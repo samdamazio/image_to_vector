@@ -18,6 +18,7 @@ Certifique-se de ter o Python 3.6 ou superior instalado. Além disso, você prec
 - `opencv-python-headless`
 - `numpy`
 - `svgwrite`
+- `scikit-image`
 
 ## Instalação
 
