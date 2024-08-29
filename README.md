@@ -30,7 +30,7 @@ Certifique-se de ter o Python 3.6 ou superior instalado. Além disso, você prec
 2. Navegue até o diretório do projeto:
 
     ```bash
-    cd image-vectorizer
+    cd image_to_vector
     ```
 
 3. Crie um ambiente virtual (opcional, mas recomendado):
@@ -50,13 +50,13 @@ Certifique-se de ter o Python 3.6 ou superior instalado. Além disso, você prec
 
 1. Coloque a imagem que deseja vetorizar no diretório do projeto.
 
-2. Execute o script Python passando o caminho da imagem de entrada e o nome do arquivo de saída SVG:
+2. Execute o script Python passando o caminho da imagem de entrada e o nome do arquivo de saída SVG: (obs, ou use o diretorio data na versão v2 para fazer em varias imagens de uma vez)
 
     ```bash
     python vectorizer.py caminho/para/sua/imagem.jpg imagem_vetorizada.svg
     ```
 
-3. O arquivo SVG gerado será salvo no mesmo diretório especificado.
+3. O arquivo SVG gerado será salvo no mesmo diretório especificado dentro da pasta vetorizadas.
 
 ## Funcionamento
 
